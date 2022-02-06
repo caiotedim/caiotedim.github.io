@@ -1,0 +1,51 @@
+baseURL = "https://caiotedim.github.io/caiotedim.github.io"
+languageCode = "pt-br"
+title = "Caio Tedim"
+copyright = "© {year}"
+
+themesDir = "./themes/"
+
+theme = ["resume"]
+
+PygmentsCodeFences = true
+PygmentsCodeFencesGuessSyntax = true
+PygmentsStyle = "monokai"
+enableGitInfo = false
+
+[permalinks]
+blog = "/:section/:year/:month/:day/:slug/"
+
+[params]
+address = "São Paulo, BR"
+email = "contato@caiotedim.dev"
+firstName = "Caio"
+lastName = "Francisco"
+dateFormat = "2 Jan 2006"
+profileImage = "./img/profile.jpg"
+favicon = "./favicon.ico"
+showEducation = true
+showExperience = true
+showOpenSource = false
+showProjects = true
+showPublications = true
+showQr = true
+showSkills = true
+showPageTitleInTOC = true
+
+[[params.handles]]
+link = "https://linkedin.com/in/caiotedim"
+name = "LinkedIn"
+
+[[params.handles]]
+link = "https://twitter.com/caiotedim"
+name = "Twitter"
+
+[[params.handles]]
+link = "https://github.com/caiotedim"
+name = "GitHub"
+
+[outputs]
+home = ["HTML", "JSON"]
+
+[taxonomies]
+tag = "tags"
