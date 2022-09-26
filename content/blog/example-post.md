@@ -1,8 +1,8 @@
 ---
-title: "Welcome To Codex"
+title: "Welcome To Resume"
 date: 2020-06-04T09:19:29-04:00
 slug: "example-post"
-description: "This is an example post for hugo-theme-codex."
+description: "This is an example post for hugo-theme-resume."
 keywords: ["gohugo", "hugo", "go", "blog"]
 draft: false
 tags: ["hugo"]

@@ -1,0 +1,39 @@
+
+[
+    {
+        "role":"Tech Engineering Specialist - SRE",
+        "company":"[C6 Bank](https://www.c6bank.com.br)",
+        "range":"August 2021 - Present"
+    },
+    {
+        "role":"Site Reliability Engineer",
+        "company":"[Itau](https://www.itau.com.br)",
+        "range":"February 2020 - August 2021"
+    },
+    {
+        "role":"Site Reliability Engineer",
+        "company":"[UOL](https://www.uol)",
+        "range":"February 2018 - February 2020"
+    },
+    {
+        "role":"Senior System Engineer",
+        "company":"[UOL](https://www.uol)",
+        "range":"June 2016 - February 2018"
+    },
+    {
+        "role":"System Administrator Pl",
+        "company":"[UOL](https://www.uol)",
+        "range":"August 2013 - June 2016"
+    },
+    {
+        "role":"System Administrator Jr",
+        "company":"[UOL](https://www.uol)",
+        "range":"October 2011 - August 2013"
+    },
+    {
+        "role":"Analyst Information Technology",
+        "company":"[Embalatec Industrial Ltda](https://www.embalatec.com.br)",
+        "summary":"Emabalatec is a company with over 1000 employees and its functioning in IT infrastructure is 24x7. \n\nBelow follows some activities during my staying at the company. \n\n  • Administration Server on Linux (Debian, Suse) and Windows Server 2003 \n\n• Administration Firewall and proxy (iptables / Squid) \n\n • Redundant WAN links with iproute2 \n\n  • Implementation of GigaBit network, configuration of CISCO switch \n\n  • Virtualization of servers on VMware ESXi platform, Openfire (Corporate Messenger), Customization Ocomon system (called Opensource), Joomla (intranet), Postfix as internal relay. \n\n  • Implementation Document Server (Cedoc) in Linux environment. \n\n  • Provision of a new structure of ERP servers and storage, due to business growth.",
+        "range":"June 2009 - June 2011"
+    }
+]

@@ -1,10 +1,10 @@
-baseURL = "https://caiotedim.github.io/caiotedim.github.io"
+baseURL = "https://caiotedim.github.io/"
 languageCode = "pt-br"
 title = "Caio Tedim"
 copyright = "© {year}"
 
 themesDir = "./themes/"
-publishDir = "./docs/"
+publishDir = "./public/"
 
 theme = ["resume"]
 
@@ -18,17 +18,18 @@ blog = "/:section/:year/:month/:day/:slug/"
 
 [params]
 address = "São Paulo, BR"
-email = "contato@caiotedim.dev"
+email = "caiotedim[@]gmail[.]com"
 firstName = "Caio"
-lastName = "Francisco"
-dateFormat = "2 Jan 2006"
+lastName = "Tedim"
+dateFormat = "January 2, 2006"
 profileImage = "./img/profile.jpg"
 favicon = "./favicon.ico"
+showCertificatons = false
 showEducation = true
 showExperience = true
 showOpenSource = false
-showProjects = true
-showPublications = true
+showProjects = false
+showPublications = false
 showQr = true
 showSkills = true
 showPageTitleInTOC = true
@@ -50,3 +51,7 @@ home = ["HTML", "JSON"]
 
 [taxonomies]
 tag = "tags"
+
+[module]
+[module.hugoVersion]
+min = "0.101.0"
