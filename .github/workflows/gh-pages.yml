@@ -24,7 +24,7 @@ jobs:
         run: hugo --minify
 
       - name: Setup CNAME
-        run: mkdir ./public && echo "www.caiotedim.dev" > ./public/CNAME
+        run: echo "www.caiotedim.dev" > ./public/CNAME
 
       - name: Deploy
         uses: peaceiris/actions-gh-pages@v3
