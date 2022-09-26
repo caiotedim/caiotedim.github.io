@@ -1,0 +1,19 @@
+[
+    {
+        "grouping":"Architecture",
+        "skills":[ "IP Networking","DNS","Firewalls","Load Balancing","Microservices","RESTful APIs","gRPC","Thrift"]
+    },
+    {
+        "grouping":"Languages, Operating Systems & Tools",
+        "skills":[ "Java","Python","Go","linux","bash","git","terraform","ansible"]
+    },
+    {
+      "grouping":"Containers & Cloud",
+        "skills":[
+            {"name":"Kubernetes","link":"https://kubernetes.io"},
+            {"name":"Docker","link":"https://docker.com"},
+            {"name":"AWS","link":"https://aws.amazon.com"},
+            {"name":"Google Cloud","link":"https://cloud.google.com","icon":"google-cloud-platform"}
+        ]
+    }
+  ]
