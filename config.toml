@@ -4,7 +4,7 @@ title = "Caio Tedim"
 copyright = "© {year}"
 
 themesDir = "./themes/"
-publishDir = "./public/"
+publishDir = "./docs/"
 
 theme = ["resume"]
 
