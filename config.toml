@@ -18,7 +18,7 @@ blog = "/:section/:year/:month/:day/:slug/"
 
 [params]
 address = "São Paulo, BR"
-email = "caiotedim[@]gmail[.]com"
+email = "me@caiotedim.dev"
 firstName = "Caio"
 lastName = "Tedim"
 dateFormat = "January 2, 2006"
