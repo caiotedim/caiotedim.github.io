@@ -1,56 +1,67 @@
 baseURL = "https://caiotedim.github.io/"
 languageCode = "pt-br"
-title = "Caio Tedim"
-copyright = "© {year}"
-
+title = "Caio Tedim Francisco"
 themesDir = "./themes/"
 publishDir = "./docs/"
 
-theme = ["resume"]
-
-PygmentsCodeFences = true
-PygmentsCodeFencesGuessSyntax = true
-PygmentsStyle = "monokai"
-enableGitInfo = false
+theme = ["soho"]
 
 [permalinks]
 blog = "/:section/:year/:month/:day/:slug/"
 
 [params]
-address = "São Paulo, BR"
+author = "Caio Tedim Francisco"
+description = ""
+copyright = "Caio Tedim Francisco"
+license = "CC BY-SA 4.0"
+licenseURL = "https://creativecommons.org/licenses/by-sa/4.0"
+customCss = ["css/blog.css"]
+customJs = ["js/blog.js"]
+
 email = "me@caiotedim.dev"
-firstName = "Caio"
-lastName = "Tedim"
 dateFormat = "January 2, 2006"
-profileImage = "./img/profile.jpg"
-favicon = "./favicon.ico"
-showCertificatons = false
-showEducation = true
-showExperience = true
-showOpenSource = false
-showProjects = false
-showPublications = false
-showQr = true
-showSkills = true
-showPageTitleInTOC = true
+profilePicture = "./img/profile.jpg"
 
-[[params.handles]]
-link = "https://linkedin.com/in/caiotedim"
-name = "LinkedIn"
+[[params.socialIcons]]
+  icon = "fa-linkedin"
+  title = "Linkedin"
+  url = "https://linkedin.com/in/caiotedim"
 
-[[params.handles]]
-link = "https://twitter.com/caiotedim"
-name = "Twitter"
+  [[params.socialIcons]]
+  icon = "fa-github"
+  title = "GitHub"
+  url = "https://github.com/caiotedim"
 
-[[params.handles]]
-link = "https://github.com/caiotedim"
-name = "GitHub"
+  [[params.socialIcons]]
+  icon = "fa-twitter"
+  title = "Twitter"
+  url = "https://twitter.com/caiotedim"
 
-[outputs]
-home = ["HTML", "JSON"]
+[menu]
+
+  [[menu.main]]
+  name = "Blog"
+  weight = 100
+  identifier = "blog"
+  url = "/blog/"
 
 [taxonomies]
-tag = "tags"
+  category = "categories"
+  series = "series"
+  tag = "tags"
+
+[markup]
+
+  [markup.highlight]
+  codeFences = true
+  guessSyntax = false
+  hl_Lines = ""
+  lineNoStart = 1
+  lineNos = false
+  lineNumbersInTable = true
+  noClasses = true # if false, you need to provide you own custom CSS
+  style = "monokai"
+  tabWidth = 4
 
 [module]
 [module.hugoVersion]
