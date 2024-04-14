@@ -1,5 +1,5 @@
 baseURL = "https://caiotedim.github.io/"
-languageCode = "pt-br"
+languageCode = "en"
 title = "Caio Tedim Francisco"
 themesDir = "./themes/"
 publishDir = "./docs/"
@@ -15,12 +15,13 @@ description = ""
 copyright = "Caio Tedim Francisco"
 license = "CC BY-SA 4.0"
 licenseURL = "https://creativecommons.org/licenses/by-sa/4.0"
-customCss = ["css/blog.css"]
-customJs = ["js/blog.js"]
+builtWith = false
 
 email = "me@caiotedim.dev"
 dateFormat = "January 2, 2006"
 profilePicture = "./img/profile.jpg"
+
+mainSections = ["posts"]
 
 [[params.socialIcons]]
   icon = "fa-linkedin"
@@ -40,10 +41,16 @@ profilePicture = "./img/profile.jpg"
 [menu]
 
   [[menu.main]]
-  name = "Blog"
+  name = "About"
+  weight = 10
+  identifier = "about"
+  url = "/about/"
+
+  [[menu.main]]
+  name = "Posts"
   weight = 100
-  identifier = "blog"
-  url = "/blog/"
+  identifier = "posts"
+  url = "/posts/"
 
 [taxonomies]
   category = "categories"
@@ -58,7 +65,7 @@ profilePicture = "./img/profile.jpg"
   hl_Lines = ""
   lineNoStart = 1
   lineNos = false
-  lineNumbersInTable = true
+  lineNumbersInTable = false
   noClasses = true # if false, you need to provide you own custom CSS
   style = "monokai"
   tabWidth = 4
@@ -66,3 +73,22 @@ profilePicture = "./img/profile.jpg"
 [module]
 [module.hugoVersion]
 min = "0.101.0"
+
+[privacy]
+
+  [privacy.vimeo]
+    disabled = true
+    simple = true
+
+  [privacy.twitter]
+    disabled = false
+    enableDNT = true
+    simple = true
+
+  [privacy.instagram]
+    disabled = true
+    simple = true
+
+  [privacy.youtube]
+    disabled = true
+    privacyEnhanced = true
