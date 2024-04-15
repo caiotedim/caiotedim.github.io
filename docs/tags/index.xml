@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Tags on Caio Tedim Francisco</title>
+    <link>https://caiotedim.github.io/tags/</link>
+    <description>Recent content in Tags on Caio Tedim Francisco</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en</language>
+    <lastBuildDate>Sun, 14 Apr 2024 09:20:54 -0300</lastBuildDate>
+    <atom:link href="https://caiotedim.github.io/tags/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>First-Post</title>
+      <link>https://caiotedim.github.io/tags/first-post/</link>
+      <pubDate>Sun, 14 Apr 2024 09:20:54 -0300</pubDate>
+      <guid>https://caiotedim.github.io/tags/first-post/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Hello-World</title>
+      <link>https://caiotedim.github.io/tags/hello-world/</link>
+      <pubDate>Sun, 14 Apr 2024 09:20:54 -0300</pubDate>
+      <guid>https://caiotedim.github.io/tags/hello-world/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>About</title>
+      <link>https://caiotedim.github.io/tags/about/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://caiotedim.github.io/tags/about/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Contact</title>
+      <link>https://caiotedim.github.io/tags/contact/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://caiotedim.github.io/tags/contact/</guid>
+      <description></description>
+    </item>
+  </channel>
+</rss>

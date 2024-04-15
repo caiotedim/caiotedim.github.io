@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Caio Tedim Francisco</title>
+    <link>https://caiotedim.github.io/</link>
+    <description>Recent content on Caio Tedim Francisco</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en</language>
+    <lastBuildDate>Sun, 14 Apr 2024 09:20:54 -0300</lastBuildDate>
+    <atom:link href="https://caiotedim.github.io/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Olá!</title>
+      <link>https://caiotedim.github.io/posts/first-post/first-post/</link>
+      <pubDate>Sun, 14 Apr 2024 09:20:54 -0300</pubDate>
+      <guid>https://caiotedim.github.io/posts/first-post/first-post/</guid>
+      <description>Bem Vindos Olá! 👋&#xA;É com grande entusiasmo que dou as boas-vindas a todos vocês. Este espaço foi criado com o objetivo de compartilhar conhecimento, insights e reflexões.&#xA;Sobre mim Confira no link ao lado About&#xA;CV Meu currículo está disponível no LinkedIn: linkedin.com/in/caiotedim/</description>
+    </item>
+    <item>
+      <title>About</title>
+      <link>https://caiotedim.github.io/about/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://caiotedim.github.io/about/</guid>
+      <description>Olá! 👋&#xA;Me chamo Caio. Sou um brasileiro com dupla nacionalidade, também sendo português. Minha vida é uma mistura de culturas e experiências, assim como minha jornada profissional.&#xA;No mundo profissional, sou um entusiasta da tecnologia da informação com uma carreira que abrange 14 anos. Meu background inicialmente estava mais voltado para a administração de sistemas, sempre em ambientes de alta performance. Essa trajetória me levou a uma imersão nas complexidades do hardening de kernels Linux e sistemas de alto desempenho, incluindo servidores web e aplicações Java.</description>
+    </item>
+  </channel>
+</rss>
