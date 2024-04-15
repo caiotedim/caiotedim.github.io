@@ -1,57 +1,94 @@
 baseURL = "https://caiotedim.github.io/"
-languageCode = "pt-br"
-title = "Caio Tedim"
-copyright = "© {year}"
-
+languageCode = "en"
+title = "Caio Tedim Francisco"
 themesDir = "./themes/"
 publishDir = "./docs/"
 
-theme = ["resume"]
-
-PygmentsCodeFences = true
-PygmentsCodeFencesGuessSyntax = true
-PygmentsStyle = "monokai"
-enableGitInfo = false
+theme = ["soho"]
 
 [permalinks]
 blog = "/:section/:year/:month/:day/:slug/"
 
 [params]
-address = "São Paulo, BR"
+author = "Caio Tedim Francisco"
+description = ""
+copyright = "Caio Tedim Francisco"
+license = "CC BY-SA 4.0"
+licenseURL = "https://creativecommons.org/licenses/by-sa/4.0"
+builtWith = false
+
 email = "me@caiotedim.dev"
-firstName = "Caio"
-lastName = "Tedim"
 dateFormat = "January 2, 2006"
-profileImage = "./img/profile.jpg"
-favicon = "./favicon.ico"
-showCertificatons = false
-showEducation = true
-showExperience = true
-showOpenSource = false
-showProjects = false
-showPublications = false
-showQr = true
-showSkills = true
-showPageTitleInTOC = true
+profilePicture = "./img/profile.jpg"
 
-[[params.handles]]
-link = "https://linkedin.com/in/caiotedim"
-name = "LinkedIn"
+mainSections = ["posts"]
 
-[[params.handles]]
-link = "https://twitter.com/caiotedim"
-name = "Twitter"
+[[params.socialIcons]]
+  icon = "fa-linkedin"
+  title = "Linkedin"
+  url = "https://linkedin.com/in/caiotedim"
 
-[[params.handles]]
-link = "https://github.com/caiotedim"
-name = "GitHub"
+  [[params.socialIcons]]
+  icon = "fa-github"
+  title = "GitHub"
+  url = "https://github.com/caiotedim"
 
-[outputs]
-home = ["HTML", "JSON"]
+  [[params.socialIcons]]
+  icon = "fa-twitter"
+  title = "Twitter"
+  url = "https://twitter.com/caiotedim"
+
+[menu]
+
+  [[menu.main]]
+  name = "About"
+  weight = 10
+  identifier = "about"
+  url = "/about/"
+
+  [[menu.main]]
+  name = "Posts"
+  weight = 100
+  identifier = "posts"
+  url = "/posts/"
 
 [taxonomies]
-tag = "tags"
+  category = "categories"
+  series = "series"
+  tag = "tags"
+
+[markup]
+
+  [markup.highlight]
+  codeFences = true
+  guessSyntax = false
+  hl_Lines = ""
+  lineNoStart = 1
+  lineNos = false
+  lineNumbersInTable = false
+  noClasses = true # if false, you need to provide you own custom CSS
+  style = "monokai"
+  tabWidth = 4
 
 [module]
 [module.hugoVersion]
 min = "0.101.0"
+
+[privacy]
+
+  [privacy.vimeo]
+    disabled = true
+    simple = true
+
+  [privacy.twitter]
+    disabled = false
+    enableDNT = true
+    simple = true
+
+  [privacy.instagram]
+    disabled = true
+    simple = true
+
+  [privacy.youtube]
+    disabled = true
+    privacyEnhanced = true
