@@ -2,16 +2,16 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>About on Caio Tedim Francisco</title>
-    <link>https://caiotedim.github.io/tags/about/</link>
+    <link>https://www.caiotedim.dev/tags/about/</link>
     <description>Recent content in About on Caio Tedim Francisco</description>
-    <generator>Hugo 0.125.2</generator>
+    <generator>Hugo</generator>
     <language>en</language>
-    <atom:link href="https://caiotedim.github.io/tags/about/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="https://www.caiotedim.dev/tags/about/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>About</title>
-      <link>https://caiotedim.github.io/about/</link>
+      <link>https://www.caiotedim.dev/about/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>https://caiotedim.github.io/about/</guid>
+      <guid>https://www.caiotedim.dev/about/</guid>
       <description>Olá! 👋&#xA;Me chamo Caio. Sou um brasileiro com dupla nacionalidade, também sendo português. Minha vida é uma mistura de culturas e experiências, assim como minha jornada profissional.&#xA;No mundo profissional, sou um entusiasta da tecnologia da informação com uma carreira que abrange 14 anos. Meu background inicialmente estava mais voltado para a administração de sistemas, sempre em ambientes de alta performance. Essa trajetória me levou a uma imersão nas complexidades do hardening de kernels Linux e sistemas de alto desempenho, incluindo servidores web e aplicações Java.</description>
     </item>
   </channel>

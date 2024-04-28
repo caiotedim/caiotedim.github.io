@@ -2,38 +2,38 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Tags on Caio Tedim Francisco</title>
-    <link>https://caiotedim.github.io/tags/</link>
+    <link>https://www.caiotedim.dev/tags/</link>
     <description>Recent content in Tags on Caio Tedim Francisco</description>
-    <generator>Hugo 0.125.2</generator>
+    <generator>Hugo</generator>
     <language>en</language>
     <lastBuildDate>Thu, 04 Jun 2020 09:19:29 -0300</lastBuildDate>
-    <atom:link href="https://caiotedim.github.io/tags/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="https://www.caiotedim.dev/tags/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>First-Post</title>
-      <link>https://caiotedim.github.io/tags/first-post/</link>
+      <link>https://www.caiotedim.dev/tags/first-post/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>https://caiotedim.github.io/tags/first-post/</guid>
+      <guid>https://www.caiotedim.dev/tags/first-post/</guid>
       <description></description>
     </item>
     <item>
       <title>Hello-World</title>
-      <link>https://caiotedim.github.io/tags/hello-world/</link>
+      <link>https://www.caiotedim.dev/tags/hello-world/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>https://caiotedim.github.io/tags/hello-world/</guid>
+      <guid>https://www.caiotedim.dev/tags/hello-world/</guid>
       <description></description>
     </item>
     <item>
       <title>About</title>
-      <link>https://caiotedim.github.io/tags/about/</link>
+      <link>https://www.caiotedim.dev/tags/about/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>https://caiotedim.github.io/tags/about/</guid>
+      <guid>https://www.caiotedim.dev/tags/about/</guid>
       <description></description>
     </item>
     <item>
       <title>Contact</title>
-      <link>https://caiotedim.github.io/tags/contact/</link>
+      <link>https://www.caiotedim.dev/tags/contact/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>https://caiotedim.github.io/tags/contact/</guid>
+      <guid>https://www.caiotedim.dev/tags/contact/</guid>
       <description></description>
     </item>
   </channel>
