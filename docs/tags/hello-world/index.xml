@@ -4,14 +4,14 @@
     <title>Hello-World on Caio Tedim Francisco</title>
     <link>http://localhost:1313/tags/hello-world/</link>
     <description>Recent content in Hello-World on Caio Tedim Francisco</description>
-    <generator>Hugo -- gohugo.io</generator>
+    <generator>Hugo 0.125.2</generator>
     <language>en</language>
-    <lastBuildDate>Sun, 14 Apr 2024 09:20:54 -0300</lastBuildDate>
+    <lastBuildDate>Thu, 04 Jun 2020 09:19:29 -0300</lastBuildDate>
     <atom:link href="http://localhost:1313/tags/hello-world/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Olá!</title>
       <link>http://localhost:1313/posts/first-post/first-post/</link>
-      <pubDate>Sun, 14 Apr 2024 09:20:54 -0300</pubDate>
+      <pubDate>Thu, 04 Jun 2020 09:19:29 -0300</pubDate>
       <guid>http://localhost:1313/posts/first-post/first-post/</guid>
       <description>Bem Vindos Olá! 👋&#xA;É com grande entusiasmo que dou as boas-vindas a todos vocês. Este espaço foi criado com o objetivo de compartilhar conhecimento, insights e reflexões.&#xA;Sobre mim Confira no link ao lado About&#xA;CV Meu currículo está disponível no LinkedIn: linkedin.com/in/caiotedim/</description>
     </item>
