@@ -2,7 +2,7 @@ baseURL = "https://www.caiotedim.dev/"
 languageCode = "en"
 title = "Caio Tedim Francisco"
 themesDir = "./themes/"
-publishDir = "./docs/"
+publishDir = "./public/"
 
 theme = ["soho"]
 
