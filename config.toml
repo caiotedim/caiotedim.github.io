@@ -1,6 +1,6 @@
 baseURL = "https://www.caiotedim.dev/"
 languageCode = "en"
-title = "Caio Tedim Francisco"
+title = "Caio Tedim"
 themesDir = "./themes/"
 publishDir = "./public/"
 
@@ -10,9 +10,9 @@ theme = ["soho"]
 blog = "/:section/:year/:month/:day/:slug/"
 
 [params]
-author = "Caio Tedim Francisco"
+author = "Caio Tedim"
 description = ""
-copyright = "Caio Tedim Francisco"
+copyright = "Caio Tedim"
 license = "CC BY-SA 4.0"
 licenseURL = "https://creativecommons.org/licenses/by-sa/4.0"
 builtWith = false
