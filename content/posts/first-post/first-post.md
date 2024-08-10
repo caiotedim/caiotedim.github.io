@@ -15,10 +15,6 @@ Olá! 👋
 
 É com grande entusiasmo que dou as boas-vindas a todos vocês. Este espaço foi criado com o objetivo de compartilhar conhecimento, insights e reflexões.
 
-## Sobre mim
-
-Confira no link ao lado [About](/about)
-
 ## CV
 
 Meu currículo está disponível no LinkedIn: [linkedin.com/in/caiotedim/](https://linkedin.com/in/caiotedim/)
