@@ -119,10 +119,10 @@ menu:
       name: Posts
       url: /posts/
       weight: 10
-    - identifier: about
-      name: About
-      url: /about/
-      weight: 20
+    #- identifier: about
+    #  name: About
+    #  url: /about/
+    #  weight: 20
     - identifier: tags
       name: Tags
       url: /tags/
