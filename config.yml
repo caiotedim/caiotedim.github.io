@@ -137,3 +137,27 @@ markup:
     # guessSyntax: true
     # lineNos: true
     # style: monokai
+
+defaultContentLanguage: en
+defaultContentLanguageInSubdir: true
+languages:
+  en:
+    contentDir: content/en
+    disabled: false
+    languageCode: en-US
+    languageDirection: ltr
+    languageName: English
+    params:
+      subtitle: ""
+    title: caiotedim's blog
+    weight: 1
+  pt-BR:
+    contentDir: content/pt-BR
+    disabled: false
+    languageCode: pt-BR
+    languageDirection: ltr
+    languageName: Português
+    params:
+      subtitle: ""
+    title: caiotedim's blog
+    weight: 2
