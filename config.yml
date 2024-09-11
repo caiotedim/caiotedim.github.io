@@ -28,7 +28,7 @@ params:
 
   ShowReadingTime: true
   ShowShareButtons: false
-  ShowPostNavLinks: true
+  ShowPostNavLinks: false
   ShowBreadCrumbs: true
   ShowCodeCopyButtons: false
   ShowWordCount: false
@@ -97,10 +97,10 @@ params:
     hiddenInList: true # hide on list pages and home
     hiddenInSingle: true # hide on single page
 
-  #editPost:
-  #  URL: "https://github.com/caiotedim/caiotedim.github.io/tree/main/content"
-  #  Text: "Suggest Changes" # edit text
-  #  appendFilePath: true # to append file path to Edit link
+  editPost:
+    URL: "https://github.com/caiotedim/caiotedim.github.io/tree/main/content"
+    Text: "Suggest Changes" # edit text
+    appendFilePath: false # to append file path to Edit link
 
   # for search
   # https://fusejs.io/api/options.html
@@ -138,7 +138,7 @@ markup:
     # lineNos: true
     # style: monokai
 
-defaultContentLanguage: en
+defaultContentLanguage: pt-BR
 defaultContentLanguageInSubdir: true
 languages:
   en:
