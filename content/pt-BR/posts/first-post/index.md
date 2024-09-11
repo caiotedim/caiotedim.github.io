@@ -1,7 +1,6 @@
 ---
 title: "Olá!"
-date: 2020-06-04T09:19:29-03:00
-slug: "first-post"
+date: 2024-08-10T09:03:40-03:00
 description: "Primeiro post desse blog."
 draft: false
 tags: ["hello-world", "first-post"]
