@@ -1,5 +1,5 @@
 ---
-title: "Concourse: Como buildar imagem multiplataforma"
+title: "Concourse: Como construir imagem multiplataforma"
 date: 2024-09-11T14:20:52-03:00
 description: ""
 draft: false
@@ -16,9 +16,9 @@ Para gerar uma imagem docker seja multiplataforma ou não, é utilizado o buildk
 
 O buildx [^2] é uma extensão do Docker CLI que habilita o uso das funcionalidades avançadas do BuildKit de maneira mais acessível e amigável para o usuário. Com Buildx, você pode:
 
-- Build Multiplataforma: Criar imagens que funcionam em várias arquiteturas (como amd64 e arm64) a partir de uma única plataforma.
+- Build Multiplataforma: Imagens que funcionam em várias arquiteturas (como amd64 e arm64) a partir de uma única plataforma.
 - Múltiplos Drivers: Buildx permite usar diferentes drivers de build, como docker, kubernetes, e qemu, para construir imagens em ambientes variados.
-- Fácil Configuração: Configurar builds multiplataforma se torna muito mais fácil e direto com o Buildx, usando comandos simples do Docker CLI
+- Fácil Configuração: Se torna muito mais fácil e direto com o Buildx, usando comandos simples do Docker CLI
 
 ## Concourse
 
@@ -60,16 +60,25 @@ Para realizar o push da imagem podemos realizar de duas formas no concourse: put
 
 O parâmetro image é importante constar o path absoluto da imagem gerada, sem a extensão `.tar`[^3] [^4].
 
-Caso necessite realizar o push da imagem utilizando o script de out[^5] do registry-image-registry, basta utilizarmos a versão >= X.X.X e passar o json:
+Caso necessite realizar o push da imagem utilizando o script de out[^5] do registry-image-registry, basta utilizarmos a versão >= 1.8.0 e passar o json:
 
 ```json
 {
-    "repository": "registry.example.com",
+  "source": {
+    "repository": "registry.example.com/some-image",
+    "tag": "<tag>",
     "username": "<user>",
-    "password": "<pass>",
-    "image": "image/image"
+    "password": "<pass>"
+  },
+  "params": {
+    "image": "image"
+  }
 }
 ```
+
+## Conclusão
+
+Como o concourse é um CI bem flexível e modular, a configuração para termos uma imagem multiplataforma é bem simples, necessário apenas se atentar as versões dos `resources types`[^6] utilizados.
 
 ## Referências
 
@@ -78,3 +87,4 @@ Caso necessite realizar o push da imagem utilizando o script de out[^5] do regis
 [^3]: https://github.com/concourse/oci-build-task/issues/85#issuecomment-2092396915
 [^4]: https://github.com/concourse/oci-build-task/pull/93/files#diff-b335630551682c19a781afebcf4d07bf978fb1f8ac04c6bf87428ed5106870f5
 [^5]: https://github.com/concourse/registry-image-resource?tab=readme-ov-file#put-step-out-script-push-and-tag-an-image
+[^6]: https://concourse-ci.org/resource-types.html
